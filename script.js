@@ -6,7 +6,7 @@ menu.onclick=() =>{
     navbar.classList.toggle('active');
      
 } 
-
+// menu
 menu.onscroll =() =>{
     menu.classList.remove('fa-times');
     navbar.classList.remove('active');
@@ -22,4 +22,4 @@ document.querySelector('#close').onclick = () =>{
 
 }
 
-.
+
