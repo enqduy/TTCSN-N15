@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travle </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> -->
+   
+</head>
+<body>
+<!-- header section starts -->
+
+<header>
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>T</span>ravle</a>
+
+    <nav class="navbar">
+        <a href="#home">Trang chủ</a>
+        <a href="#book">Đặt lịch</a>
+        <a href="#services">Dịch vụ</a>
+        <a href="#review">Review</a>
+        <a href="#contact">Liên hệ</a>
+    </nav>
+
+    <div class="icon">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="Tìm kiếm....">
+        <label for="search-bar" class="fas fa-search"></label>
+
+    </form>
+
+</header>
+
+
+
+
+
+
+
+<!-- header section ends -->
+
+<!-- login form container -->
+
+<div class="login-form-container">
+<i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>Đăng nhập</h3>
+        <input type="email" class="box" placeholder="Nhập email">
+        <input type="password" class="box" placeholder="Nhập mật khẩu">
+        <input type="submit" value="Đăng nhập ngay" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">Duy trì đăng nhập</label>
+        <p>Quên mật khẩu <a href="#">Bấm vào</a></p>
+        <p>Bạn chưa có tài khoản <a href="#">Đăng kí ngay</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts -->
+<section class="home" id="home">
+    <div class="content">
+        <h3>adventure is worthwide</h3>
+        <p>discover new place with us, adventure awaits</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+
+    <div  class="controls">
+        <span class="vid-btn active" data-src="vid1.mp4"></span>
+        <span class="vid-btn" data-src="anh/vid2.mp4"></span>
+        <span class="vid-btn" data-src="anh/vid3.mp4"></span>
+        <span class="vid-btn" data-src="anh/vid4.mp4"></span>
+        <span class="vid-btn" data-src="anh/vid5.mp4"></span>
+        <span class="vid-btn" data-src="anh/vid6.mp4"></span>
+    </div>
+    
+    <div class="video-container">
+        <video src="anh/vid1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+<!-- home section ends -->
+
+<!-- book section starts -->
+    <section id="book" class="book">
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="anh/pic1.jpg" alt="">
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <h3>Where to</h3>
+                    <input type="text" placeholder="Địa điểm">
+                </div>
+                <div class="inputBox">
+                    <h3>how many</h3>
+                    <input type="number" placeholder="Số khách">
+                </div>
+                <div class="inputBox">
+                    <h3>arrivals</h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3>leaving</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="book now">
+            </form>
+        </div>
+    </section>
+
+    
+<section class = "services" id="services">
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+
+    </h1>
+    <div class="box-container">
+        <div class="box">
+             <i class="fas fa-hotel"></i>
+             <h3>affordable hotels</h3>
+             <p>Lorem ipsum dolor sit amet consectetur , adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corruoti!</p>
+        </div>
+        
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>food and drinks</h3>
+            <p>Lorem ipsum dolor sit amet consectetur , adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corruoti!</p>
+       </div>
+
+       <div class="box">
+        <i class="fas fa-bullhorn"></i>
+        <h3>safty guide</h3>
+        <p>Lorem ipsum dolor sit amet consectetur , adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corruoti!</p>
+       </div>
+       <div class="box">
+        <i class="fas fa-globe-asia"></i>
+        <h3>around the world</h3>
+        <p>Lorem ipsum dolor sit amet consectetur , adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corruoti!</p>
+       </div>
+       <div class="box">
+        <i class="fas fa-plane"></i>
+        <h3>fastest travel</h3>
+        <p>Lorem ipsum dolor sit amet consectetur , adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corruoti!</p>
+       </div>
+
+       <div class="box">
+        <i class="fas fa-hiking"></i>
+        <h3>adventures</h3>
+        <p>Lorem ipsum dolor sit amet consectetur , adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corruoti!</p>
+       </div>
+    </div>
+</section>
+ 
+<!--review section strarts-->
+
+<section class= "review" id="review">
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+    <div class="review-slider">
+        <div class="wrapper">
+            <div class="slider">
+                <div class="box">
+                    <img src="#1" alt="">
+                    <h3>John deo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur , adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corruoti!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="slider">
+                <div class="box">
+                    <img src="#2" alt="">
+                    <h3>John deo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur , adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corruoti!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="slider">
+                <div class="box">
+                    <img src="#3" alt="">
+                    <h3>John deo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur , adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corruoti!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Contact secsion start-->
+<section class="contact">
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+    <div class="row">
+        <div class="image">
+            <img src="##" alt="">
+        </div>
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- book section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+
+
+
+
+</body>
+</html>
