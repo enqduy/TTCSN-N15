@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travle </title>
+    <title>Travle web</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> -->
-   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 </head>
 <body>
 <!-- header section starts -->
@@ -22,6 +22,7 @@
         <a href="#home">Trang chủ</a>
         <a href="#book">Đặt lịch</a>
         <a href="#services">Dịch vụ</a>
+        <a href="#gallery">Triển lãm</a>
         <a href="#review">Review</a>
         <a href="#contact">Liên hệ</a>
     </nav>
@@ -88,9 +89,7 @@
 
 </section>
 <!-- home section ends -->
-
-<!-- duy -->
-<!--chien-->
+ 
 <!-- book section starts -->
 <section id="book" class="book">
     <h1 class="heading">
@@ -131,65 +130,153 @@
 </section>
 <!-- book section ends -->
 
-<!--services section start-->
+<!-- services section -->
 <section class = "services" id="services">
-    <h1 class="heading">
-        <span>s</span>
-        <span>e</span>
-        <span>r</span>
-        <span>v</span>
-        <span>i</span>
-        <span>c</span>
-        <span>e</span>
-        <span>s</span>
+<h1 class="heading">
+    <span>s</span>
+    <span>e</span>
+    <span>r</span>
+    <span>v</span>
+    <span>i</span>
+    <span>c</span>
+    <span>e</span>
+    <span>s</span>
 
-    </h1>
-    <div class="box-container">
-        <div class="box">
-             <i class="fas fa-hotel"></i>
-             <h3>affordable hotels</h3>
-             <p>Lorem ipsum dolor sit amet consectetur , adipisicing elit. Inventore commodi earum, 
-                quis voluptate exercitationem ut minima itaque iusto ipsum corruoti!</p>
-        </div>
-        
-        <div class="box">
-            <i class="fas fa-utensils"></i>
-            <h3>food and drinks</h3>
-            <p>Lorem ipsum dolor sit amet consectetur , adipisicing elit. Inventore commodi earum,
-                 quis voluptate exercitationem ut minima itaque iusto ipsum corruoti!</p>
-       </div>
-
-       <div class="box">
-        <i class="fas fa-bullhorn"></i>
-        <h3>safty guide</h3>
-        <p>Lorem ipsum dolor sit amet consectetur , adipisicing elit. Inventore commodi earum,
+</h1>
+<div class="box-container">
+    <div class="box">
+         <i class="fas fa-hotel"></i>
+         <h3>affordable hotels</h3>
+         <p>Lorem ipsum dolor sit amet consectetur , adipisicing elit. Inventore commodi earum, 
             quis voluptate exercitationem ut minima itaque iusto ipsum corruoti!</p>
-   </div>
-
-       <div class="box">
-        <i class="fas fa-globe-asia"></i>
-        <h3>around the world</h3>
-        <p>Lorem ipsum dolor sit amet consectetur , adipisicing elit. Inventore commodi earum, 
-            quis voluptate exercitationem ut minima itaque iusto ipsum corruoti!</p>
-   </div>
-
-       <div class="box">
-            <i class="fas fa-plane"></i>
-            <h3>fastest travel</h3>
-            <p>Lorem ipsum dolor sit amet consectetur , adipisicing elit. Inventore commodi earum, 
-                quis voluptate exercitationem ut minima itaque iusto ipsum corruoti!</p>
-       </div>
-
-       <div class="box">
-        <i class="fas fa-hiking"></i>
-        <h3>adventures</h3>
-        <p>Lorem ipsum dolor sit amet consectetur , adipisicing elit. Inventore commodi earum, 
-            quis voluptate exercitationem ut minima itaque iusto ipsum corruoti!</p>
-   </div>
     </div>
+    
+    <div class="box">
+        <i class="fas fa-utensils"></i>
+        <h3>food and drinks</h3>
+        <p>Lorem ipsum dolor sit amet consectetur , adipisicing elit. Inventore commodi earum,
+             quis voluptate exercitationem ut minima itaque iusto ipsum corruoti!</p>
+   </div>
+
+   <div class="box">
+    <i class="fas fa-bullhorn"></i>
+    <h3>safty guide</h3>
+    <p>Lorem ipsum dolor sit amet consectetur , adipisicing elit. Inventore commodi earum,
+        quis voluptate exercitationem ut minima itaque iusto ipsum corruoti!</p>
+</div>
+
+   <div class="box">
+    <i class="fas fa-globe-asia"></i>
+    <h3>around the world</h3>
+    <p>Lorem ipsum dolor sit amet consectetur , adipisicing elit. Inventore commodi earum, 
+        quis voluptate exercitationem ut minima itaque iusto ipsum corruoti!</p>
+</div>
+
+   <div class="box">
+        <i class="fas fa-plane"></i>
+        <h3>fastest travel</h3>
+        <p>Lorem ipsum dolor sit amet consectetur , adipisicing elit. Inventore commodi earum, 
+            quis voluptate exercitationem ut minima itaque iusto ipsum corruoti!</p>
+   </div>
+
+   <div class="box">
+    <i class="fas fa-hiking"></i>
+    <h3>adventures</h3>
+    <p>Lorem ipsum dolor sit amet consectetur , adipisicing elit. Inventore commodi earum, 
+        quis voluptate exercitationem ut minima itaque iusto ipsum corruoti!</p>
+</div>
+</div>
 </section>
 
+<!-- gallery section -->
+<section class="gallery" id="gallery">
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
 
+    <div class="box-container">
+
+        <div class="box">
+            <img src="anh/pic1.jpg" alt="">
+            <div class="content">
+                <h3>Tên</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <a href="pic1.html"  class="btn">xem thêm</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="anh/pic1.jpg" alt="">
+            <div class="content">
+                <h3>Tên</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <a href="pic1.html" class="btn">xem thêm</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="anh/pic1.jpg" alt="">
+            <div class="content">
+                <h3>Tên</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <a href="pic1.html" class="btn">xem thêm</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="anh/pic1.jpg" alt="">
+            <div class="content">
+                <h3>Tên</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <a href="pic1.html" class="btn">xem thêm</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="anh/pic1.jpg" alt="">
+            <div class="content">
+                <h3>Tên</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <a href="pic1.html" class="btn">xem thêm</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="anh/pic1.jpg" alt="">
+            <div class="content">
+                <h3>Tên</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <a href="pic1.html" class="btn">xem thêm</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="anh/pic1.jpg" alt="">
+            <div class="content">
+                <h3>Tên</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <a href="pic1.html" class="btn">xem thêm</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="anh/pic1.jpg" alt="">
+            <div class="content">
+                <h3>Tên</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <a href="pic1.html" class="btn">xem thêm</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="anh/pic1.jpg" alt="">
+            <div class="content">
+                <h3>Tên</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <a href="pic1.html" class="btn">xem thêm</a>
+            </div>
+        </div>
+    </div>
+
+</section>
 
 
 <!--review section strarts-->
@@ -203,9 +290,9 @@
     <span>e</span>
     <span>w</span>
 </h1>
-<div class="review-slider">
-    <div class="wrapper">
-        <div class="slider">
+<div class="swiper-mySwiper review-slider">
+    <div class="swiper-wrapper wrapper">
+        <div class="swiper-slide">
             <div class="box">
                 <img src="anh/pic1.jpg" alt="">
                 <h3>John deo</h3>
@@ -219,7 +306,7 @@
                 </div>
             </div>
         </div>
-        <div class="slider">
+        <div class="swiper-slide">
             <div class="box">
                 <img src="anh/pic1.jpg" alt="">
                 <h3>John deo</h3>
@@ -233,7 +320,21 @@
                 </div>
             </div>
         </div>
-        <div class="slider">
+        <div class="swiper-slide">
+            <div class="box">
+                <img src="anh/pic1.jpg" alt="">
+                <h3>John deo</h3>
+                <p>Lorem ipsum dolor sit amet consectetur , adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corruoti!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
             <div class="box">
                 <img src="anh/pic1.jpg" alt="">
                 <h3>John deo</h3>
@@ -250,96 +351,36 @@
     </div>
 </div>
 </section>
- <!-- gallery section -->
-<section class="gallery" id="gallery">
-    <h1 class="heading">
-        <span>g</span>
-        <span>a</span>
-        <span>l</span>
-        <span>l</span>
-        <span>e</span>
-        <span>r</span>
-        <span>y</span>
-    </h1>
 
-    <div class="box-container">
-
-        <div class="box">
-            <img src="https://www.anhdulich.vn/storage/sliders/ba-na-hill-dia-diem-kham-pha-thu-vi-khi-du-lich-da-nang-copy.jpg" alt="">
-            <div class="content">
-                <h3>Tên</h3>
-                <p>Lorem ipsum dolor sit amet.</p>
-                <a href="#" class="btn">xem thêm</a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="https://www.anhdulich.vn/storage/sliders/ba-na-hill-dia-diem-kham-pha-thu-vi-khi-du-lich-da-nang-copy.jpg" alt="">
-            <div class="content">
-                <h3>Tên</h3>
-                <p>Lorem ipsum dolor sit amet.</p>
-                <a href="#" class="btn">xem thêm</a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="https://www.anhdulich.vn/storage/sliders/ba-na-hill-dia-diem-kham-pha-thu-vi-khi-du-lich-da-nang-copy.jpg" alt="">
-            <div class="content">
-                <h3>Tên</h3>
-                <p>Lorem ipsum dolor sit amet.</p>
-                <a href="#" class="btn">xem thêm</a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="https://www.anhdulich.vn/storage/sliders/ba-na-hill-dia-diem-kham-pha-thu-vi-khi-du-lich-da-nang-copy.jpg" alt="">
-            <div class="content">
-                <h3>Tên</h3>
-                <p>Lorem ipsum dolor sit amet.</p>
-                <a href="#" class="btn">xem thêm</a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="https://www.anhdulich.vn/storage/sliders/ba-na-hill-dia-diem-kham-pha-thu-vi-khi-du-lich-da-nang-copy.jpg" alt="">
-            <div class="content">
-                <h3>Tên</h3>
-                <p>Lorem ipsum dolor sit amet.</p>
-                <a href="#" class="btn">xem thêm</a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="https://www.anhdulich.vn/storage/sliders/ba-na-hill-dia-diem-kham-pha-thu-vi-khi-du-lich-da-nang-copy.jpg" alt="">
-            <div class="content">
-                <h3>Tên</h3>
-                <p>Lorem ipsum dolor sit amet.</p>
-                <a href="#" class="btn">xem thêm</a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="https://www.anhdulich.vn/storage/sliders/ba-na-hill-dia-diem-kham-pha-thu-vi-khi-du-lich-da-nang-copy.jpg" alt="">
-            <div class="content">
-                <h3>Tên</h3>
-                <p>Lorem ipsum dolor sit amet.</p>
-                <a href="#" class="btn">xem thêm</a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="https://www.anhdulich.vn/storage/sliders/ba-na-hill-dia-diem-kham-pha-thu-vi-khi-du-lich-da-nang-copy.jpg" alt="">
-            <div class="content">
-                <h3>Tên</h3>
-                <p>Lorem ipsum dolor sit amet.</p>
-                <a href="#" class="btn">xem thêm</a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="https://www.anhdulich.vn/storage/sliders/ba-na-hill-dia-diem-kham-pha-thu-vi-khi-du-lich-da-nang-copy.jpg" alt="">
-            <div class="content">
-                <h3>Tên</h3>
-                <p>Lorem ipsum dolor sit amet.</p>
-                <a href="#" class="btn">xem thêm</a>
-            </div>
-        </div>
+<!--Contact secsion start-->
+<section class="contact" id="contact">
+<h1 class="heading">
+    <span>c</span>
+    <span>o</span>
+    <span>n</span>
+    <span>t</span>
+    <span>a</span>
+    <span>c</span>
+    <span>t</span>
+</h1>
+<div class="row">
+    <div class="image">
+        <img src="anh/pic1.jpg" alt="">
     </div>
-
+    <form action="">
+        <div class="inputBox">
+            <input type="text" placeholder="name">
+            <input type="email" placeholder="email">
+        </div>
+        <div class="inputBox">
+            <input type="number" placeholder="number">
+            <input type="text" placeholder="subject">
+        </div>
+        <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+        <input type="submit" class="btn" value="send message">
+    </form>
+</div>
 </section>
-    
 
 
 
@@ -409,18 +450,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 <script src="script.js"></script>
 
 
