@@ -6,6 +6,7 @@ let formClose = document.querySelector('#form-close');
 let menu = document.querySelector('#menu-bar');
 let navbar = document.querySelector('.navbar');
 let videoBtn = document.querySelectorAll('.vid-btn');
+let acc = document.getElementById('account');
 
 window.onscroll = () =>{
     searchBtn.classList.remove('fa-times');
@@ -14,6 +15,16 @@ window.onscroll = () =>{
     navbar.classList.remove('active');
 }
  
+function myFunction(){
+    console.log(acc.value);
+   if((acc.value === 'admin@gmail.com')&&(pas.value === 'admin')){
+    
+        alert('Đăng nhập thành công');
+        location.reload();
+   }
+        
+}
+
 searchBtn.addEventListener('click', ()=>{
     searchBtn.classList.toggle('fa-times');
     searchBar.classList.toggle('active');
