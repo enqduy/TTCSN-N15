@@ -507,6 +507,16 @@ header .search-bar-container label:hover{
     text-decoration: line-through;
 }
 
+.contact .content-contact a{
+    color: #222;
+}
+.contact .content-contact ul li{
+    display: flex;
+}
+.contact .content-contact ul li p{
+    font-size: 1.5rem;
+}
+
 
 
 
